@@ -1,0 +1,31 @@
+{
+  "name": "simple-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -t babelify index.js -o bundle.js",
+    "b": "echo 'bbb'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoma2da/simple-todo-app.git"
+  },
+  "author": "Shoichi Matsuda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shoma2da/simple-todo-app/issues"
+  },
+  "homepage": "https://github.com/shoma2da/simple-todo-app#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  }
+}
