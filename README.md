@@ -1,1 +1,1 @@
-# Simple Todo App
+# Simple JavaScript Todo App
